@@ -1,11 +1,11 @@
-About r-bigd
-============
+About r-bigd-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bigd-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rich-iannone/bigD
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bigd-feedstock/blob/main/LICENSE.txt)
 
 Summary: Format dates and times flexibly and to whichever locales make sense. Parses dates, times, and date-times in various formats (including string-based ISO 8601 constructions). The formatting syntax gives the user many options for formatting the date and time output in a precise manner. Time zones in the input can be expressed in multiple ways and there are many options for formatting time zones in the output as well. Several of the provided helper functions allow for automatic generation of locale-aware formatting patterns based on date/time skeleton formats and standardized date/time formats with varying specificity.
 
