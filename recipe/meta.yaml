@@ -1,4 +1,4 @@
-{% set version = '0.2.0' %}
+{% set version = "0.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bigD_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bigD/bigD_{{ version }}.tar.gz
-  sha256: bca9eb0c9a231b159b97650884b1a7a490bc3bf4edef11cc12db06fb15c6ff5f
+  sha256: 78cd83ad7e39ec6c899d6e56828ddf35d2739cccf83cc44e3df3c0a3eaa807a0
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -35,14 +35,8 @@ test:
 about:
   home: https://github.com/rich-iannone/bigD
   license: MIT
-  summary: Format dates and times flexibly and to whichever locales make sense. Parses dates,
-    times, and date-times in various formats (including string-based ISO 8601 constructions).
-    The formatting syntax gives the user many options for formatting the date and time
-    output in a precise manner. Time zones in the input can be expressed in multiple
-    ways and there are many options for formatting time zones in the output as well.
-    Several of the provided helper functions allow for automatic generation of locale-aware
-    formatting patterns based on date/time skeleton formats and standardized date/time
-    formats with varying specificity.
+  summary: Format dates and times flexibly and to whichever locales make sense. Parses dates, times, and date-times in various formats (including string-based ISO 8601 constructions). The formatting syntax gives the user many options for formatting the date and time output in a precise manner. Time zones in the input can
+    be expressed in multiple ways and there are many options for formatting time zones in the output as well. Several of the provided helper functions allow for automatic generation of locale-aware formatting patterns based on date/time skeleton formats and standardized date/time formats with varying specificity.
   license_family: MIT
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
